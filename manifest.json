@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Dictionary",
+    "description": "This is a free extension for getting definitions of words.",
+    "version": "1.0",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "My Dictionary"
+    },
+    "icons": {
+        "16": "icons/dictionary.png",
+        "32": "icons/dictionary (1).png",
+        "48": "icons/dictionary (2).png",
+        "128": "icons/dictionary (3).png"
+    }
+}

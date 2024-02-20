@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border: 1px solid orange;
+    width: 250px;
+}
+.main-section h2{
+    color: orange;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+.main-section p{
+    color: gray;
+    font-size: 12px;
+    margin-top: -17px;
+    text-align: center;
+}
+.main-section input{
+    padding: 5px 10px;
+    color: rgb(57, 57, 57);
+    font-size: 15px;
+    width: 60%;
+    outline: none;
+    border: 1px solid orange;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+.main-section button{
+    background-color: orange;
+    color: white;
+    font-size: 12px;
+    width: 25%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 8px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    user-select: none;
+}
+.main-section button:hover{
+    background-color: transparent;
+    color: orange;
+    border: 1px solid orange;
+}
+.main-section input:focus{
+    box-shadow: 0px 0px 5px 0px orange;
+}
+.main-section #result{
+    margin-top: 30px;
+}
+/* #result .definition {
+    margin: 5px;
+    padding: 5px;
+    background-color: transparent;
+} */
+
+.definition summary {
+    background-color: rgb(200, 103, 5);
+    color: white;
+    font-family: montserrat;
+    font-weight: 600;
+    padding: 5px;
+    border-bottom: 2px solid white;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.definition .data {
+    background-color: white;
+    border-top: 2px solid rgb(164, 108, 3);
+    padding: 5px;
+    margin-top: 1px;
+    font-weight: 600;
+    color: rgb(40, 41, 41);
+    font-size: 13px;
+}
+.empty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(166, 165, 165);
+    width: 100%;
+    height: 100px;
+}
+
+.hidden{
+    display: none;
+}
